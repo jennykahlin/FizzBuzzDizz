@@ -1,4 +1,4 @@
-name: C/C++ CI
+  name: C/C++ CI
 
 on:
   push:
@@ -22,3 +22,9 @@ jobs:
       with: 
          files: build/fizzbuzz
          dest: fizz.zip
+    - name: Releases
+      uses: ncipollo/release-action@v1
+      with:
+          artifacts: "fizz.zip"
+          bodyFile: "README.md"
+          token: ${{ secrets.GITHUB_TOKEN }}
