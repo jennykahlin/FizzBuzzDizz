@@ -25,6 +25,6 @@ jobs:
     - name: Releases
       uses: ncipollo/release-action@v1
       with:
-          artifacts: "release.tar.gz,foo/v*.txt"
-          bodyFile: "fizz.zip"
+          artifacts: "fizz.zip"
+          bodyFile: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
