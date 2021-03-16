@@ -16,7 +16,7 @@ jobs:
     - name: run_tests
       run: sh run_tests.sh
     - name: compile_aplication
-      run: sh comile_application.sh
+      run: sh compile_application.sh
     - name: Easy Zip Files
       uses: vimtor/action-zip@v1
       with: 
