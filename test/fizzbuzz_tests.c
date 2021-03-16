@@ -1,4 +1,4 @@
-#include ".\src\fizzbuzz.h"
+#include "..\\src\fizzbuzz.h"
 
 #include "unity.h"
 
