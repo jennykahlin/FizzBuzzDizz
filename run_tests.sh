@@ -1,2 +1,2 @@
-./compile_tests.sh
+sh compile_tests.sh
 ./build/fizzbuzz_tests
